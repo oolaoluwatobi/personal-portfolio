@@ -19,13 +19,13 @@ export default function Contact() {
       initial={{
         opacity: 0,
       }}
-      whileInView={{
+      whileInView={{    
         opacity: 1,
       }}
-      transition={{
+      transition={{    // animation duration
         duration: 1,
       }}
-      viewport={{
+      viewport={{     //animate once
         once: true,
       }}
     >
@@ -33,7 +33,7 @@ export default function Contact() {
 
       <p className="text-gray-700 -mt-6 dark:text-white/80">
         Please contact me directly at{" "}
-        <a className="underline" href="mailto:oolaoluwatobi@gmail.com">
+        <a className="underline text-blue-700" href="mailto:oolaoluwatobi@gmail.com">
           oolaoluwatobi@gmail.com
         </a>{" "}
         or through this form.

@@ -70,6 +70,7 @@ export const projectsData = [
       "This app provides users with a seamless way to manage tasks through different stages of completion.",
     tags: ["React", "Express", "Nodejs", "MongoDB", "Tailwind", "mern"],
     imageUrl: kamBanBoardHomepage,
+    "link": "https://kanban-client-sigma.vercel.app/",
   },
   {
     title: "Contacts App",
@@ -77,6 +78,7 @@ export const projectsData = [
       "Integrates a RESTful API to perform CRUD operations on contacts. It has features like filtering, sorting and pagination.",
       tags: ["React", "Express", "Nodejs", "MongoDB", "Tailwind", "mern"],
     imageUrl: contactsApp,
+    "link": "https://main--melodious-alpaca-0ee727.netlify.app/",
   },
   {
     title: "Van rental app",
@@ -84,6 +86,7 @@ export const projectsData = [
       "This app implements JWT (JSON Web Token) for  authentication and authorization, and React Router dom for navigation and managing protected routes.",
       tags: ["React", "React-router-dom", "Express", "Nodejs", "MongoDB", "Tailwind", "mern"],
     imageUrl: vanlifeDashboard,
+    "link": "https://master--famous-concha-79d633.netlify.app",
   },
 ] as const;
 
