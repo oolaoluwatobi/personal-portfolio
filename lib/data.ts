@@ -2,12 +2,10 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
-import kamBanBoardHomepage from '@/public/kanBanBoardHomepage.png'
-import vanlifeDashboard from '@/public/vanlifeDashboard.png'
-import contactsApp from '@/public/contactsApp .png'
+import airbnb from "@/public/airbnb-lagos.png";
+import fameet from "@/public/fameet.png";
+import vanlifeDashboard from "@/public/vanlifeDashboard.png";
+import contactsApp from "@/public/contactsApp .png";
 
 export const links = [
   {
@@ -41,15 +39,14 @@ export const experiencesData = [
     title: "Internship",
     location: "Ibadan, Nigeria",
     description:
-      "I got an internship and I was able to develop my skills as a front-end developer. I also upskilled to the full stack.",
-      icon: React.createElement(CgWorkAlt),
+      "I got an internship and I was able to develop my skills as a front-end developer. I also personal upskilled to full stack during the internship.",
+    icon: React.createElement(CgWorkAlt),
     date: "2021",
   },
   {
-    title: "Front-End Developer",
+    title: "Front-End Developer @ Fatherland Global",
     location: "Ibadan, Nigeria",
-    description:
-      "I work as a front-end developer building a social media app.",
+    description: "I work as a front-end developer building a social media app.",
     icon: React.createElement(CgWorkAlt),
     date: "2023 - Present",
   },
@@ -65,29 +62,45 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "KanBan Board Task Management app",
+    title: "Airbnb Lagos",
     description:
-      "This app provides users with a seamless way to manage tasks through different stages of completion.",
-    tags: ["React", "Express", "Nodejs", "MongoDB", "Tailwind", "mern"],
-    imageUrl: kamBanBoardHomepage,
-    "link": "https://kanban-client-sigma.vercel.app/",
+      "Airbnb Lagos: This app was inspired by the popurlar Airbnb. It is a full-stack app that allows users to book and manage their bookings. Allows passwordless login with Google.",
+    tags: ["React", "Nextjs", "Prisma", "MongoDB", "Tailwind"],
+    imageUrl: airbnb,
+    link: "https://airbnb-lagos.vercel.app/",
+  },
+  {
+    title: "Fameet (Frontend - Fatherland global)",
+    description:
+      "Fameet: Social media app that connect users to their families. It has features like posting, commenting, liking, and following. The backend was built with Laravel-php and the frontend with React.",
+    tags: ["React", "Next", "Typescript"],
+    imageUrl: fameet,
+    link: "https://fameet.com/",
   },
   {
     title: "Contacts App",
     description:
       "Integrates a RESTful API to perform CRUD operations on contacts. It has features like filtering, sorting and pagination.",
-      tags: ["React", "Express", "Nodejs", "MongoDB", "Tailwind", "mern"],
+    tags: ["React", "Express", "Nodejs", "MongoDB", "Tailwind", "mern"],
     imageUrl: contactsApp,
-    "link": "https://main--melodious-alpaca-0ee727.netlify.app/",
+    link: "https://main--melodious-alpaca-0ee727.netlify.app/",
   },
-  {
-    title: "Van rental app",
-    description:
-      "This app implements JWT (JSON Web Token) for  authentication and authorization, and React Router dom for navigation and managing protected routes.",
-      tags: ["React", "React-router-dom", "Express", "Nodejs", "MongoDB", "Tailwind", "mern"],
-    imageUrl: vanlifeDashboard,
-    "link": "https://master--famous-concha-79d633.netlify.app",
-  },
+  // {
+  //   title: "Van rental app",
+  //   description:
+  //     "This app implements JWT (JSON Web Token) for  authentication and authorization, and React Router dom for navigation and managing protected routes.",
+  //   tags: [
+  //     "React",
+  //     "React-router-dom",
+  //     "Express",
+  //     "Nodejs",
+  //     "MongoDB",
+  //     "Tailwind",
+  //     "mern",
+  //   ],
+  //   imageUrl: vanlifeDashboard,
+  //   link: "https://master--famous-concha-79d633.netlify.app",
+  // },
 ] as const;
 
 export const skillsData = [
@@ -103,7 +116,7 @@ export const skillsData = [
   "Tailwind",
   "Prisma",
   "MongoDB",
-  "Redux",
+  "Zustand",
   "Express",
   // "PostgreSQL",
   "Framer Motion",
