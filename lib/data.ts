@@ -4,8 +4,8 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import airbnb from "@/public/airbnb-lagos.png";
 import fameet from "@/public/fameet.png";
-import vanlifeDashboard from "@/public/vanlifeDashboard.png";
-import contactsApp from "@/public/contactsApp .png";
+// import vanlifeDashboard from "@/public/vanlifeDashboard.png";
+import chatapp from "@/public/chatapp.png";
 
 export const links = [
   {
@@ -62,10 +62,26 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Airbnb Lagos",
+    title: "Chat App",
+    description:
+      "Chat app built with React, Typescript, Nodejs, Socket.io, Express, and MongoDB, create an account an chat with other users.",
+    tags: [
+      "React",
+      "Socket.io",
+      "Express",
+      "Nodejs",
+      "MongoDB",
+      "Typescript",
+      "mern",
+    ],
+    imageUrl: chatapp,
+    link: "https://chat-app-mern-re7b.onrender.com/",
+  },
+  {
+    title: "Listings - Airbnb Lagos",
     description:
       "Airbnb Lagos: This app was inspired by the popurlar Airbnb. It is a full-stack app that allows users to book and manage their bookings. Allows passwordless login with Google.",
-    tags: ["React", "Nextjs", "Prisma", "MongoDB", "Tailwind"],
+    tags: ["React", "Nextjs", "Prisma", "MongoDB", "Tailwind", "Typescript"],
     imageUrl: airbnb,
     link: "https://airbnb-lagos.vercel.app/",
   },
@@ -73,17 +89,9 @@ export const projectsData = [
     title: "Fameet (Frontend - Fatherland global)",
     description:
       "Fameet: Social media app that connect users to their families. It has features like posting, commenting, liking, and following. The backend was built with Laravel-php and the frontend with React.",
-    tags: ["React", "Next", "Typescript"],
+    tags: ["React", "Next", "Typescript", "Socket.io"],
     imageUrl: fameet,
     link: "https://fameet.com/",
-  },
-  {
-    title: "Contacts App",
-    description:
-      "Integrates a RESTful API to perform CRUD operations on contacts. It has features like filtering, sorting and pagination.",
-    tags: ["React", "Express", "Nodejs", "MongoDB", "Tailwind", "mern"],
-    imageUrl: contactsApp,
-    link: "https://main--melodious-alpaca-0ee727.netlify.app/",
   },
   // {
   //   title: "Van rental app",
@@ -118,6 +126,6 @@ export const skillsData = [
   "MongoDB",
   "Zustand",
   "Express",
-  // "PostgreSQL",
+  "Socket.io",
   "Framer Motion",
 ] as const;
