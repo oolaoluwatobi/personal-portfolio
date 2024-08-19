@@ -62,12 +62,12 @@ export const experiencesData = [
     date: "2024 - Present",
   },
   {
-    title: "Full-Stack Developer",
+    title: "Full-Stack Developer @ Freelancer",
     location: "Remote",
     description:
-      "I'm work as a freelancer. My stack includes React, Next.js, TypeScript, Nodejs, Socket.io, Nestjs, Prisma, PostgreSQL and MongoDB. I'm open to full-time opportunities.",
+      "I work as a freelancer. My stack includes React, Next.js, TypeScript, Nodejs, Socket.io, NestJS, Prisma, PostgreSQL and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "2022 - present",
+    date: "2023 - present",
   },
 ] as const;
 
@@ -99,7 +99,7 @@ export const projectsData = [
   {
     title: "Chat App",
     description:
-      "A Full Stack app built with React, Typescript, Nodejs, Socket.io, Express, and MongoDB, users create account and chat with other users.",
+      "A Full Stack app built with React, Typescript, Nodejs, Socket.io, Express, and MongoDB. Users create account and chat with other users.",
     tags: [
       "React",
       "Socket.io",

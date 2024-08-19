@@ -34,9 +34,7 @@ export default function About() {
           React, Next.js, Node.js, NestJS and MongoDB
         </span>
         . I am also familiar with Socket.io and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        learn new technologies.
       </p>
 
       <p>
