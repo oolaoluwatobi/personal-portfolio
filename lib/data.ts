@@ -65,7 +65,7 @@ export const experiencesData = [
     title: "Full-Stack Developer",
     location: "Remote",
     description:
-      "I'm a work as a freelancer. My stack includes React, Next.js, TypeScript, Nodejs, Socket.io, Nestjs, Prisma, PostgreSQL and MongoDB. I'm open to full-time opportunities.",
+      "I'm work as a freelancer. My stack includes React, Next.js, TypeScript, Nodejs, Socket.io, Nestjs, Prisma, PostgreSQL and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
     date: "2022 - present",
   },
@@ -99,7 +99,7 @@ export const projectsData = [
   {
     title: "Chat App",
     description:
-      "Chat app built with React, Typescript, Nodejs, Socket.io, Express, and MongoDB, users create account and chat with other users.",
+      "A Full Stack app built with React, Typescript, Nodejs, Socket.io, Express, and MongoDB, users create account and chat with other users.",
     tags: [
       "React",
       "Socket.io",
@@ -133,6 +133,7 @@ export const skillsData = [
   "Node.js",
   "NestJS",
   "Git",
+  "Jest",
   "Tailwind",
   "Prisma",
   "PostgreSQL",
